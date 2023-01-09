@@ -1,0 +1,13 @@
+.sidebarFriend:hover {
+    border-radius: 8px;
+    background-color: rgba(200, 197, 197, 0.3);
+    cursor: pointer;
+}
+
+.sidebarFriendImg {
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}

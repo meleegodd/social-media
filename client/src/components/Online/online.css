@@ -1,0 +1,40 @@
+.rightbarFriend {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 10px;
+}
+
+.rightbarFriend:hover {
+    border-radius: 8px;
+    background-color: rgba(200, 197, 197, 0.3);
+    cursor: pointer;
+}
+
+.rightbarProfile {
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.rightbarProfileImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.rightbarOnline {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: limegreen;
+    position: absolute;
+    bottom: -3px;
+    left: 22px;
+    border: 2px solid white;
+}
+
+.rightbarUserName {
+    font-weight: 500;
+}

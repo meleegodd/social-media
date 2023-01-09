@@ -1,0 +1,10 @@
+.feed {
+    flex: 6;
+}
+
+.feedWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
